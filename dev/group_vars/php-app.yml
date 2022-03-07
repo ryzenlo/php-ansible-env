@@ -1,0 +1,19 @@
+docker_config:
+  data_volume: php_app_demo_dev
+app_config:
+  app_base_path: /var/www/php_app_demo_dev
+  app_name: php_app_demo
+  app_env: dev
+  app_key: hUgzPqGso9VTI0bQOjqgciV0VW9YMvEL
+  app_debug: true
+  app_url: "http://localhost"
+  mysql:
+     host: 127.0.0.1
+     port: 3306
+     dbname: laravel
+     user: root
+     pwd: root
+  redis:
+     host: 127.0.0.1
+     port: 6379
+     password: null
